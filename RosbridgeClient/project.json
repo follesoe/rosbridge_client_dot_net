@@ -1,5 +1,10 @@
 ﻿{
-  "supports": {},
+  "title": "RosbridgeClient",
+  "description": ".NET Standard Library which provides a client for the Rosbrdige Suite.",
+  "copyright": "Stefan Zeltner, Jonas Follesø 2016",
+  "authors": [ "Stefan Zeltner", "Jonas Follesø" ],
+  "version":  "1.1.0-*",
+  "supports": { },
   "dependencies": {
     "Microsoft.NETCore.Portable.Compatibility": "1.0.1",
     "NETStandard.Library": "1.6.0",
@@ -7,6 +12,17 @@
     "System.Net.WebSockets.Client": "4.0.0"
   },
   "frameworks": {
-    "netstandard1.5": {}
+    "netstandard1.5": { }
+  },
+  "packOptions": {
+    "summary": ".NET Standard Library which provides a client for the Rosbrdige Suite.",
+    "tags": [ "ros", "robotics", "rosbrdige" ],
+    "releaseNotes": "Initial release of .NET Standard version of RosbrdigeCient.",
+    "licenseUrl": "https://github.com/follesoe/rosbridge_client_dot_net/blob/master/LICENSE",
+    "projectUrl": "https://github.com/follesoe/rosbridge_client_dot_net",
+    "owners": [ "Stefan Zeltner", "Jonas Follesø" ],
+    "repository": {
+      "url": "https://github.com/follesoe/rosbridge_client_dot_net" 
+    }
   }
 }
