@@ -51,3 +51,9 @@ await subscriber.UnsubscribeAsync();
 await publisher.UnadvertiseAsync();
 await md.StopAsync();
 ```
+
+### Preview build of System.Net.WebSockets.Client 
+The library uses a preview build of the System.Net.WebSockets.Client library on Mac, so packages must
+be restored using the dotnet.myget.org feed:
+
+``dotnet restore --source https://dotnet.myget.org/F/dotnet-core/api/v3/index.json --source https://www.nuget.org/api/v2/``
