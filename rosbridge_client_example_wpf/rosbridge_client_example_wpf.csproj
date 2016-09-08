@@ -125,10 +125,6 @@
       <Project>{7167262b-09b1-435b-ac01-6a3f94449c72}</Project>
       <Name>rosbridge_client_common</Name>
     </ProjectReference>
-    <ProjectReference Include="..\rosbridge_client_socket_for_desktop\rosbridge_client_desktop.csproj">
-      <Project>{7b7ba4bb-4789-400b-9373-20321a8fb966}</Project>
-      <Name>rosbridge_client_desktop</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
