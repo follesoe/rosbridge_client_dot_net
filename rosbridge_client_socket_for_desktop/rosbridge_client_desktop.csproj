@@ -42,7 +42,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="MessageSerializerV2_0.cs" />
     <Compile Include="Socket.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
